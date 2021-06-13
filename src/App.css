@@ -53,6 +53,19 @@ nav .navbar .menu li {
   text-decoration: none;
 }
 
+nav .menu-btn,
+.navbar .cancel-btn {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  right: 20px;
+  top: 20px;
+}
+
+nav .menu-btn {
+  color: #4070f4;
+}
+
 .navbar .menu li a:hover {
   color: #0e2431;
   border-color: #4070f4;
@@ -112,10 +125,10 @@ nav .navbar .menu li {
 
 @media (max-width: 750px) {
   nav .navbar .menu {
-    position: absolute;
+    position: absoulte;
     left: 0;
     top: 0;
-    height: 5;
+    height: 100vh;
     max-width: 400px;
     width: 100%;
     background: #4070f4;
@@ -162,7 +175,7 @@ nav .navbar .menu li {
   }
 
   .home .text .text-three {
-    font-size: 35px;
+    font-size: 33px;
   }
 }
 
