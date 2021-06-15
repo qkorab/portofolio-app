@@ -356,7 +356,7 @@ section .button button:hover {
 section .topic {
   font-size: 25px;
   font-weight: 1000;
-  color: #0e2431;
+  color: lightblue;
   margin-bottom: 10px;
 }
 
@@ -476,7 +476,7 @@ section .topic {
   box-sizing: border-box;
   margin: 16px 0;
   border: 0;
-  background: #111;
+  background: lightgray;
   padding: 20px 40px;
   outline: none;
   color: #ddd;

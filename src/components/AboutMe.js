@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "./images/korabi.png";
-import cv from "./images/CV--KorabQorri.pdf";
+import cv from "../components/images/CV--KorabQorri.pdf";
 
 const AboutMe = () => {
   return (
@@ -27,7 +27,7 @@ const AboutMe = () => {
             </div>
             <div class="button">
               <button>
-                <a href="./images/CV--KorabQorri.pdf" download>
+                <a href={cv} download>
                   Download my CV
                 </a>{" "}
               </button>
